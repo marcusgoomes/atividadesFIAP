@@ -37,7 +37,6 @@ a{
     margin: 60px;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: none;
     color: #fff;
 }
 
@@ -104,6 +103,10 @@ h4{
     line-height: 1px;
 }
 
+.titulo_link {
+    color: black;
+}
+
 .galeria{
     width: 100%;
     height: 300px;
@@ -125,3 +128,19 @@ h4{
     border-radius: 10px;
 }
 
+
+.caixa__comentario textarea {
+    width: 95%;
+    height: 225px;
+    margin: 0px auto 10px
+    border: 1px solid;
+    border-radius: 10px;
+    resize: none;
+    
+}
+
+.voltar_home {
+    color: black;
+    margin: 0;
+    border: 1px solid;
+}
