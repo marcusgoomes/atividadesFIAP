@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pontos turisticos- Projeto Traveller</title>
+    <link rel="stylesheet" href="./css/pontosturisticos.css">
+</head>
+<body>
+
+     <!-- div referente ao menu superior -->
+     <div class="menu">
+        <!-- div para a primeira parte do menu que é um título nomeado -->
+        <div class="menu_titulo">
+        <h1>Projeto Traveller</h1>
+        </div>
+        <!-- div para a segunda parte do menu que é uma lista onde terão botões clicáveis direcionadores -->
+        <div class="menu_botoes">
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+            </ul>
+        </div>
+    </div>
+
+       <div class="container">
+        <!--@caixa 1 (esquerda)-->
+        <h2>Pontos turísticos</h2>
+        <h4>Cadastre o melhor ponto turístico da sua viagem!</h4>
+        <p>Compartilhe com as pessoas sua experiência e como aproveitar cada detalhe do local,<br> 
+            para que todos vivenciem os melhores momentos.</p>
+       </div>
+
+    <div class="cadastro">
+        <!--@caixa 2 cadastro (direita)-->
+        
+        <form name="dados" id="dados" action="" method="post">
+            <div class="campos">
+                <label for="nome">Nome do local</label>
+                <input type="text" id="nome" placeholder="ex: Hotel Plaza" autofocus required>
+            </div>
+
+            <div class="campos">
+                <label class="titulo" for="nome">Endereço</label>
+                <input type="text" id="nome" placeholder="ex: Hotel Plaza" autofocus required>
+            </div>
+
+            <div class="campos">
+                <label for="nome">Horário de funcionamento</label>
+                <input type="text" id="nome" placeholder="ex: aberto 24 horas" autofocus required>
+                
+            </div>
+
+            <div class="campos">
+                <label for="nome">Valor da atração</label>
+                <input type="text" id="nome">
+                
+            </div>
+
+            <div class="campos">
+                <label for="nome">Quanto tempo você recomenda que a visita seja feita?</label>
+                <p>
+                    <input type="radio" name="formacao" id="1hora">
+                    <label class="opcoes" for="1hora"> Abaixo de 1 hora </p>
+                </label>
+            
+                <p>
+                    <input type="radio" name="formacao" id="2horas">
+                    <label class="opcoes" for="2horas">1 a 2 horas</p>
+                    </label>
+            
+                <p><input type="radio" name="formacao" id="3horas">
+                    <label class="opcoes" for="3horas">2 a 3 horas</p>
+                    </label>
+            
+                <p><input type="radio" name="formacao" id="acimade3horas">
+                    <label class="opcoes" for="acimade3horas">Acima de 3 horas</p>
+                    </label>
+            
+                    </label>
+            </div>
+
+            <div class="campos">
+                <label for="nome">Deixe a sua opinião e todas as informações que você acha necessário</label>
+            <p>
+                <textarea id="mensagem" cols="" rows=""></textarea>
+            </p>
+
+    </div>
+
+    
+</body>
+</html>
