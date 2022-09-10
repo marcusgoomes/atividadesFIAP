@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
 
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .menu{
     background-color: #731728;
@@ -32,12 +36,24 @@
     display: flex;
 }
 
-a{
-    text-decoration: none;
+.menu_botoes a{
+    
     margin: 60px;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
+    text-align:left;
+}
+
+.titulo_link a{
+    font-size: 20px;
+    font-weight: 500;
+    text-align:left;
+    color:black;
+}
+
+a{
+    text-decoration: none;
 }
 
 .menu_botoes li :hover{
@@ -57,11 +73,20 @@ h1{
     margin-bottom: 10px;
     padding: 20px;
     box-sizing: border-box;
+    background-image: url(../images/torre\ eiffel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3{
     size: 30px;
     position: relative; left: 100px; top: 250px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 1px;
+    
 }
 
 .container{
@@ -82,12 +107,54 @@ h3{
     margin: 50px;
 }
 
-.box_img{
+.box_img1{
     width: 300px;
     height: 225px;
-    background-image: url(../images/teste.png);
+    background-image: url(../images/Jardin\ du\ Luxembourg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+.box_img2{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Place\ du\ Panthéon\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img3{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Café\ de\ I\'Homme\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img4{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Pont\ Alexandre\ III.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box_img5{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Musee\ des\ arts\ forains\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img6{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Palais\ Garnier\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .box_txt{
@@ -96,14 +163,6 @@ h3{
     font-size: 15px;
     padding-left: 9px;
     box-sizing: border-box;
-}
-
-h4{
-    font-size: 18px;
-    line-height: 1px;
-}
-
-.titulo_link {
     color: black;
 }
 
@@ -119,20 +178,18 @@ h4{
     background-color: #731728;
 }
 
-.galeria_1, .galeria_2, .galeria_3{
+.galeria_1, .galeria_2, .galeria_3, .galeria4{
     width: 300px;
     height: 225px;
     background-image: url(../images/teste.png);
     margin: 0 30px 0 30px;
-    border: 1px solid;
-    border-radius: 10px;
 }
 
 
 .caixa__comentario textarea {
     width: 95%;
     height: 225px;
-    margin: 0px auto 10px
+    margin: 0px auto 10px;
     border: 1px solid;
     border-radius: 10px;
     resize: none;
@@ -143,4 +200,29 @@ h4{
     color: black;
     margin: 0;
     border: 1px solid;
+}
+
+.galeria_1{
+    background-image: url(../images/Jardin\ du\ Luxembourg\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_2{
+    background-image: url(../images/Place\ du\ Panthéon\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_3{
+    background-image: url(../images/Café\ de\ I\'Homme\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_4{
+    background-image: url(../images/Pont\ Alexandre\ III\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
