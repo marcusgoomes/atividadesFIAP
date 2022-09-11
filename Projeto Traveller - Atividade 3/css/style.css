@@ -89,7 +89,6 @@ h3{
 h4{
     font-size: 18px;
     line-height: 1px;
-    
 }
 
 .container{
@@ -116,7 +115,7 @@ h4{
     /* Jardin Du Luxembourg */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Jardin\ du\ Luxembourg.jpg);
+    background-image: url(../images/Jardin\ du\ Luxembourg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,7 +124,7 @@ h4{
     /* Place du Panthéon */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Place\ du\ Panthéon.jpg);
+    background-image: url(../images/Place\ du\ Panthéon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -134,7 +133,7 @@ h4{
     /* Café de L'Homme */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Café\ de\ I\'Homme.jpg);
+    background-image: url(../images/Café\ de\ I\'Homme.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,7 +143,7 @@ h4{
 /* Pont Alexandre III  */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Pont\ Alexandre\ III.jpg);
+    background-image: url(../images/Pont\ Alexandre\ III.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -154,7 +153,7 @@ h4{
     /* Musee Des Arts Forains */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Musee\ des\ arts\ forains\ 3.jpg);
+    background-image: url(../images/Musee\ des\ arts\ forains\ 3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,7 +162,7 @@ h4{
     /* Palais Garnier */
     width: 300px;
     height: 225px;
-    background-image: url(../images/images/Palais\ Garnier\ 3.jpg);
+    background-image: url(../images/Palais\ Garnier\ 3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -197,15 +196,19 @@ h4{
     margin: 0 30px 0 30px;
 }
 
-
 .caixa__comentario textarea {
     width: 95%;
     height: 225px;
     margin: 0px auto 10px;
-    border: 1px;
+    border: 1px solid;
     border-radius: 10px;
     resize: none;
-    
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.botao__enviar{
+    padding-bottom: 20px;
 }
 
 .voltar_home {
@@ -241,4 +244,14 @@ h4{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+h5{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.centropags{
+    padding: 20px 35px 20px 20px;
+    box-sizing: border-box;
 }
