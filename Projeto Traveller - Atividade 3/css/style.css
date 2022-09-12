@@ -79,6 +79,7 @@ h1{
     background-image: url(https://i.pinimg.com/originals/03/e0/b9/03e0b979eb3caaf5bcf42661c519dc48.jpg);
     /* background-repeat: no-repeat; */
     background-size:cover;
+    image-rendering: optimizeQuality;
 }
 
 h3{
@@ -96,26 +97,30 @@ h4{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 30px;
-    align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.13);
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.021);
     border-radius: 10px;
     margin-bottom: 10px;
+    background-color: #f2e9d838;
+
 }
 
 .box{
     width: 300px;
     height: 325px;
-    border: 1px solid rgba(0, 0, 0, 0.13);
-    margin: 85px;
+    border: 1px rgba(0, 0, 0, 0.021);
+    margin: 50px;
     border-bottom-right-radius: 10px;
-    justify-content: center;
+    background-color: #f2e9d8;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .box_img1{
     /* Jardin Du Luxembourg */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Jardin\ du\ Luxembourg.jpg);
+    background-image: url(../images/images/Jardin\ du\ Luxembourg\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,7 +129,7 @@ h4{
     /* Place du Panthéon */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Place\ du\ Panthéon.jpg);
+    background-image: url(../images/images/Place\ du\ Panthéon\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -133,7 +138,7 @@ h4{
     /* Café de L'Homme */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Café\ de\ I\'Homme.jpg);
+    background-image: url(../images/images/Café\ de\ I\'Homme\ 3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -143,7 +148,7 @@ h4{
 /* Pont Alexandre III  */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Pont\ Alexandre\ III.jpg);
+    background-image: url(../images/images/Pont\ Alexandre\ III\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,7 +158,7 @@ h4{
     /* Musee Des Arts Forains */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Musee\ des\ arts\ forains\ 3.jpg);
+    background-image: url(../images/images/Musee\ des\ arts\ forains\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +167,7 @@ h4{
     /* Palais Garnier */
     width: 300px;
     height: 225px;
-    background-image: url(../images/Palais\ Garnier\ 3.jpg);
+    background-image: url(../images/images/Palais\ Garnier\ 3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,8 +197,8 @@ h4{
 .galeria_1, .galeria_2, .galeria_3, .galeria4{
     width: 335px;
     height: 225px;
-    /* background-image: url(../images/images/torre\ eiffel.jpg); */
     margin: 0 30px 0 30px;
+
 }
 
 .caixa__comentario textarea {
@@ -238,7 +243,7 @@ h4{
     background-position: center;
     border-radius: 10px;
 }
-.galeria_4{
+.galeria4{
     background-image: url(https://i.pinimg.com/564x/ac/85/88/ac8588197bdb120e879b42d781ab35d9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,10 +253,18 @@ h4{
 
 h5{
     font-size: 22px;
-    font-weight: 900;
+    /* font-weight: 900; */
+    text-align: center;
+    text-decoration:underline;
 }
 
 .centropags{
     padding: 20px 35px 20px 20px;
     box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.021);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight:bolder;
+    background-color: #f2e9d838;
 }
